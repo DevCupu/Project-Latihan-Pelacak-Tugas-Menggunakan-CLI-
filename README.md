@@ -1,28 +1,20 @@
-Proyek ini akan memungkinkan pengguna untuk mengelola tugas mereka melalui baris perintah, 
-menyimpan data dalam file JSON, dan mengikuti semua persyaratan yang telah ditetapkan.
+# Task Tracker CLI
 
-Menambahkan Tugas:
-node task-cli.js add "Buy groceries"
+Aplikasi **Task Tracker** adalah alat sederhana yang membantu kamu melacak dan mengelola tugas harian kamu melalui Command Line Interface (CLI). Dengan aplikasi ini, kamu dapat menambahkan, memperbarui, menghapus, dan menandai tugas dengan mudah, serta mendapatkan daftar tugas berdasarkan statusnya.
 
-Memperbarui Tugas:
-node task-cli.js update 1 "Buy groceries and cook dinner"
+## Fitur Utama
 
-Menghapus Tugas:
-node task-cli.js delete 1
+- **Tambahkan Tugas**: Simpan tugas baru dengan deskripsi singkat.
+- node task-cli.js add "Buy groceries"
+- **Perbarui Tugas**: Ubah deskripsi tugas yang sudah ada.
+- node task-cli.js update 1 "Buy groceries and cook dinner"
+- **Hapus Tugas**: Hapus tugas yang tidak diperlukan.
+- node task-cli.js delete 1
+- **Tandai Tugas**: Tandai tugas sebagai sedang berlangsung atau selesai.
+- node task-cli.js mark-done 1
+- node task-cli.js mark-in-progress 1
+- **Daftar Tugas**: Dapatkan daftar semua tugas atau tugas berdasarkan status (todo, in-progress, done).
+- node task-cli.js list done
+- node task-cli.js list todo
+- node task-cli.js list in-progress
 
-Menandai Tugas Sebagai Sedang Berlangsung:
-node task-cli.js mark-in-progress 1
-
-
-Menandai Tugas Sebagai Selesai:
-node task-cli.js mark-done 1
-
-Mendapatkan Daftar Semua Tugas:
-node task-cli.js list
-
-Mendapatkan Daftar Tugas Berdasarkan Status:
-node task-cli.js list done
-node task-cli.js list todo
-node task-cli.js list in-progress
-
-Testing
